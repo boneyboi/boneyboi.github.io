@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  background-image: url('hexagons.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  background-color: #000;
+  color: #fff;
+  margin: 0 auto;
+  padding: 20px;
+}
+main #staricon {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+section {
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-shadow: 2px 4px 4px rgba(255,0,100,0.6);
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+section h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+section li {
+  margin-bottom: 20px;
+}
+section p {
+  margin-bottom: 20px;
+  line-height: 2;
+}
+
+#projects p {
+  margin-left: 50px;
+}
+#about h2,
+#about p{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+form label,
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+form textarea {
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  resize: none;
+}
+
+form button[type="submit"] {
+  height: 36px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #444;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
